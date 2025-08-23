@@ -6,3 +6,23 @@ header {
   color: white;
   backdrop-filter: blur(10px);
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 12px;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  padding: 5px;
+}
