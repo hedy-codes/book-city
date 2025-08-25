@@ -30,6 +30,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffb84c;
+  color: #ffb84c;
+  background-color: rgba(255, 184, 76, 0.1);
+  border-radius: 5px;
+  padding: 0.3rem;
+  transform: scale(1.1);
 }
-
