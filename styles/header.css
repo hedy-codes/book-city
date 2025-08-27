@@ -61,6 +61,11 @@ header .logo img {
 }
 
 .logo-text {
+  display: none;
+}
+
+
+.logo-text {
   font-size: 18px;
   margin-top: 5px;
 }
