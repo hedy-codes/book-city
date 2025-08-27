@@ -52,3 +52,15 @@ nav ul li a::after {
 nav ul li a:hover::after {
   transform: scaleX(1); 
 }
+
+
+header .logo img {
+  width: 70px;
+  height: auto;
+  margin-right: 85px;
+}
+
+.logo-text {
+  font-size: 18px;
+  margin-top: 5px;
+}
