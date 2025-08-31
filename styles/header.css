@@ -117,3 +117,13 @@ header .logo img {
 .icon {
   margin-right: 10px;
 }
+
+.button-shop {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #ffc107;
+  color: #ffc107;
+  transition: all 0.3s ease;
+}
+
