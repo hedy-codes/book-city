@@ -127,3 +127,8 @@ header .logo img {
   transition: all 0.3s ease;
 }
 
+.button-shop:hover {
+  background-color: #ffc107;
+  color: #1a4b7b;
+}
+
