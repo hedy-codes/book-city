@@ -95,3 +95,17 @@ header .logo img {
 .button-yellow:hover {
   background-color: #e6a700;
 }
+
+.botton-login p {
+  margin-top: 10px;
+  padding: 10px;
+  width: 7rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button i {
+  margin-left: 8px;
+  font-size: 16px;
+}
