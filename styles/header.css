@@ -109,3 +109,11 @@ header .logo img {
   margin-left: 8px;
   font-size: 16px;
 }
+
+.button .shop-i {
+  margin: 0;
+}
+
+.icon {
+  margin-right: 10px;
+}
