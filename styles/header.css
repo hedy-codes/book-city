@@ -95,3 +95,40 @@ header .logo img {
 .button-yellow:hover {
   background-color: #e6a700;
 }
+
+.botton-login p {
+  margin-top: 10px;
+  padding: 10px;
+  width: 7rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button i {
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.button .shop-i {
+  margin: 0;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.button-shop {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #ffc107;
+  color: #ffc107;
+  transition: all 0.3s ease;
+}
+
+.button-shop:hover {
+  background-color: #ffc107;
+  color: #1a4b7b;
+}
+
