@@ -64,8 +64,23 @@ header .logo img {
   display: none;
 }
 
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1a4b7b;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
 
-.logo-text {
-  font-size: 18px;
-  margin-top: 5px;
+.button:hover {
+  background-color: #163d65;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
