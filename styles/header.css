@@ -84,3 +84,14 @@ header .logo img {
   background-color: #163d65;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.button-yellow {
+  background-color: #ffc107;
+  color: #1a4b7b;
+  padding: 10px 20px;
+  border-radius: 90px;
+}
+
+.button-yellow:hover {
+  background-color: #e6a700;
+}
