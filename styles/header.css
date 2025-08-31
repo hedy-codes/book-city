@@ -132,3 +132,8 @@ header .logo img {
   color: #1a4b7b;
 }
 
+.button-login {
+  background: linear-gradient(45deg, #ffc107, #ff9800);
+  color: #1a4b7b;
+}
+
