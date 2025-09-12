@@ -23,6 +23,7 @@
   border-radius: 8px;
   opacity: 0;
   transform: translateY(30px);
+  animation: fadeIn 1.5s ease-out forwards;
 }
 
 .banner::before {
@@ -47,3 +48,4 @@
     transform: translateY(0);
   }
 }
+
