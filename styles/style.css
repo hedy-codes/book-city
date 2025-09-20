@@ -49,6 +49,11 @@
   }
 }
 
+.banner-content {
+  max-width: 50%;
+  text-align: center;
+}
+
 .banner h1,
 p,
 .btn {
