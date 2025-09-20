@@ -49,6 +49,13 @@
   }
 }
 
+.banner h1,
+p,
+.btn {
+  position: relative;
+  z-index: 1;
+}
+
 .banner h1 {
   overflow: hidden;
   white-space: nowrap;
