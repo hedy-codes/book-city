@@ -93,12 +93,13 @@ p,
 }
 
 .banner-content .btn {
-  background-color: yellow;
   color: #1a4b7b;
   padding: 0.75rem 1rem;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   border-radius: 10px;
-  transition: background-color 0.3s ease;
+  background: linear-gradient(to right, #ffcc00, #ff9900);
+  box-shadow: 0 5px 15px rgba(255, 153, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
