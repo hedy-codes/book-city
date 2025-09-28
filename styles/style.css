@@ -106,4 +106,6 @@ p,
 
 .banner-content .btn:hover {
   background-color: #ffc107;
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(255, 153, 0, 0.6);
 }
