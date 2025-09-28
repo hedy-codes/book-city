@@ -103,3 +103,7 @@ p,
   box-shadow: 0 5px 15px rgba(255, 153, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.banner-content .btn:hover {
+  background-color: #ffc107;
+}
