@@ -51,3 +51,16 @@ CREATE TABLE books (
   PRIMARY KEY (id),
   KEY (author_id)
 );
+
+--
+-- Table structure for table `carts`
+--
+
+CREATE TABLE carts (
+  id INT NOT NULL AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  KEY (user_id),
+  FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
+);
