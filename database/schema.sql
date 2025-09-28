@@ -64,3 +64,20 @@ CREATE TABLE carts (
   KEY (user_id),
   FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
 );
+
+--
+-- Table structure for table `cart-items`
+--
+
+CREATE TABLE cart_items (
+  id INT NOT NULL AUTO_INCREMENT,
+  cart_id INT NOT NULL,
+  book_id INT NOT NULL,
+  quantity INT NOT NULL DEFAULT 1,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  KEY (cart_id),
+  KEY (book_id),
+  FOREIGN KEY (cart_id) REFERENCES carts (id) ON DELETE CASCADE,
+  FOREIGN KEY (book_id) REFERENCES books (id) ON DELETE CASCADE
+);
