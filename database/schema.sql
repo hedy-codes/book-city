@@ -12,3 +12,14 @@ CREATE TABLE users (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (id)
 );
+
+--
+-- Table structure for table `authors`
+--
+
+CREATE TABLE authors (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(100) NOT NULL,
+  bio TEXT,
+  PRIMARY KEY (id)
+);
