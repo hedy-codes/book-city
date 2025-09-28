@@ -23,3 +23,13 @@ CREATE TABLE authors (
   bio TEXT,
   PRIMARY KEY (id)
 );
+
+--
+-- Table structure for table `genres`
+--
+
+CREATE TABLE genres (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(100) NOT NULL UNIQUE,
+  PRIMARY KEY (id)
+);
