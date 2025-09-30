@@ -21,3 +21,12 @@ INSERT INTO books (title, author_id, description, price, stock, image_url, genre
 ('سمفونی مردگان', 3, 'رمان مشهور عباس معروفی', 200000, 10, NULL, 'رمان'),
 ('ملت عشق', 2, 'پرفروش‌ترین رمان الیف شافاک', 250000, 5, NULL, 'عاشقانه'),
 ('کتاب سیاه', 1, 'رمانی فلسفی از اورهان پاموک', 180000, 7, NULL, 'رمان');
+
+-- Carts
+INSERT INTO carts (user_id) VALUES
+(1), (2);
+
+-- Cart Items
+INSERT INTO cart_items (cart_id, book_id, quantity) VALUES
+(1, 1, 2),
+(2, 2, 1);
