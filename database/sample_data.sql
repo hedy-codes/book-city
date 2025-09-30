@@ -10,3 +10,7 @@ INSERT INTO authors (name, bio) VALUES
 ('Orhan Pamuk', 'Turkish novelist, screenwriter, and academic.'),
 ('Elif Shafak', 'Turkish-British novelist, known for The Forty Rules of Love.'),
 ('Abbas Maroufi', 'Iranian novelist, journalist, and playwright.');
+
+-- Genres
+INSERT INTO genres (name) VALUES
+('رمان'), ('عاشقانه'), ('داستان کوتاه');
