@@ -14,3 +14,10 @@ INSERT INTO authors (name, bio) VALUES
 -- Genres
 INSERT INTO genres (name) VALUES
 ('رمان'), ('عاشقانه'), ('داستان کوتاه');
+
+
+-- Books
+INSERT INTO books (title, author_id, description, price, stock, image_url, genre) VALUES
+('سمفونی مردگان', 3, 'رمان مشهور عباس معروفی', 200000, 10, NULL, 'رمان'),
+('ملت عشق', 2, 'پرفروش‌ترین رمان الیف شافاک', 250000, 5, NULL, 'عاشقانه'),
+('کتاب سیاه', 1, 'رمانی فلسفی از اورهان پاموک', 180000, 7, NULL, 'رمان');
